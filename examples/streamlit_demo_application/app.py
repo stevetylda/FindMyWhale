@@ -16,7 +16,7 @@ hide_default_format = """
        """
 st.markdown(hide_default_format, unsafe_allow_html=True)
 
-st.header(":whale: FindMyWhale", divider="gray")
+st.header(":material/near_me: FindMyWhale", divider="gray")
 
 
 st.write("Test")
