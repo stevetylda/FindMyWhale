@@ -28,7 +28,7 @@ m = folium.Map(
     control_scale=True,
     # tiles="https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
     # attr="Google Satellite",
-    tiles="Carto DB darkmatter",
+    tiles="cartodbpositron",
 )
 
 st_data = st_folium(m, use_container_width=True)
