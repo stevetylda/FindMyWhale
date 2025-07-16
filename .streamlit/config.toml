@@ -1,0 +1,28 @@
+[theme] # You have to add this line
+
+primaryColor = 'white'
+
+backgroundColor = '#e5f4ff'
+
+secondaryBackgroundColor = '#00325B'
+
+textColor = '#00325B'
+
+linkColor = 'orange'
+
+codeBackgroundColor = 'grey'
+
+font = 'monospace'
+
+[theme.sidebar]
+
+# Primary accent color.
+primaryColor = 'orange'
+
+# Background color of the app.
+backgroundColor = 'black'
+
+# Background color used for most interactive widgets.
+secondaryBackgroundColor = 'white'
+
+textColor = 'pink'
