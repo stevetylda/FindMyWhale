@@ -4,3 +4,10 @@
 *.vscode
 *.ipynb_checkpoints
 *__pycache__
+*.env
+*.shp
+*.shx
+*.parquet
+data/
+*.DS_Store
+*.log
