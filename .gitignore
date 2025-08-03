@@ -1,13 +1,31 @@
+# Ignore data files
 *.csv
 *.json
+*.parquet
 *.tif
-*.vscode
-*.ipynb_checkpoints
-*__pycache__
-*.env
 *.shp
 *.shx
-*.parquet
-data/
-*.DS_Store
 *.log
+*.txt
+
+# Ignore data directory
+data/
+
+# Ignore environment files
+*.env
+
+# Ignore system files
+.DS_Store
+
+# Ignore VSCode settings and Python cache
+.vscode/
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore notebook checkpoints and other temp files
+*.ipynb_checkpoints/
+
+# Ignore platform-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
